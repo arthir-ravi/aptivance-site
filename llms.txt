@@ -1,0 +1,51 @@
+# Aptivance
+
+> Aptivance is a practical learning community in Puducherry, India. It helps learners build industry-relevant technology skills through courses, hands-on practice, mentorship, and information about internship opportunities.
+
+Website: https://aptivance.com/
+Email: hello@aptivance.com
+Phone: +91 944 335 6858
+Address: 8, First Floor, First Cross Street, Puducherry, India 605004
+
+## Overview
+
+Aptivance focuses on learning by doing. Its programmes are designed to help learners gain practical experience, build confidence, and prepare for technology careers. The website presents more than 20 courses, a community of 50+ learners, and information about 10+ internship opportunities.
+
+## Learning Approach
+
+- Practical, project-based learning focused on real-world skills.
+- Guidance from mentors, peers, and industry experts.
+- Career-readiness support for learners building technology skills.
+- Course and internship enquiry support through the website contact section.
+
+## Featured Courses
+
+- **Android Development** — 12-week course. The listed instructor is Trisha Leo.
+- **iOS Development** — 8-week course. The listed instructor is Sarah Johnson.
+- **Full-stack MERN Development** — 16-week course. The listed instructor is Mike Chen.
+- **Flutter** — 6-week course. The listed instructor is Emma Davis.
+
+## Learning Areas
+
+- Android Development
+- iOS Development
+- Full-stack MERN Development
+- Flutter
+- React Native
+- AI Agent Development
+
+## Values
+
+- **Practical Learning:** Hands-on projects and real-world practice.
+- **Supportive Community:** Learning and growth with peers, mentors, and industry experts.
+- **Career Growth:** Building skills and confidence to achieve professional goals.
+
+## Contact and Enquiries
+
+Prospective learners can use the website's internship enquiry section to ask about courses, learning programmes, and internship-related opportunities. Contact Aptivance by email at hello@aptivance.com or phone at +91 944 335 6858.
+
+## Important Pages
+
+- [Home](https://aptivance.com/): Course information, learner testimonials, Aptivance values, and internship enquiries.
+- [Privacy Policy](https://aptivance.com/privacy-policy/): Information about the collection, use, sharing, and protection of personal data.
+- [Terms of Service](https://aptivance.com/terms-of-service/): Terms for using the Aptivance website, learning programmes, courses, and internship-related services.

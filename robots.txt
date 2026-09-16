@@ -1,0 +1,6 @@
+# Aptivance crawler guidance
+
+User-agent: *
+Allow: /
+
+Sitemap: https://aptivance.com/sitemap.xml
