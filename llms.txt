@@ -2,7 +2,7 @@
 
 > Aptivance is a practical learning community in Puducherry, India. It helps learners build industry-relevant technology skills through courses, hands-on practice, mentorship, and information about internship opportunities.
 
-Website: https://arthir-ravi.github.io/aptivance-site/
+Website: https://aptivance.in/
 Email: hello@aptivance.com
 Phone: +91 944 335 6858
 Address: 8, First Floor, First Cross Street, Puducherry, India 605004
@@ -46,6 +46,6 @@ Prospective learners can use the website's internship enquiry section to ask abo
 
 ## Important Pages
 
-- [Home](https://arthir-ravi.github.io/aptivance-site/): Course information, learner testimonials, Aptivance values, and internship enquiries.
-- [Privacy Policy](https://arthir-ravi.github.io/aptivance-site/privacy-policy/): Information about the collection, use, sharing, and protection of personal data.
-- [Terms of Service](https://arthir-ravi.github.io/aptivance-site/terms-of-service/): Terms for using the Aptivance website, learning programmes, courses, and internship-related services.
+- [Home](https://aptivance.in/): Course information, learner testimonials, Aptivance values, and internship enquiries.
+- [Privacy Policy](https://aptivance.in/privacy-policy/): Information about the collection, use, sharing, and protection of personal data.
+- [Terms of Service](https://aptivance.in/terms-of-service/): Terms for using the Aptivance website, learning programmes, courses, and internship-related services.

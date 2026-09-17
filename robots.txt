@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://arthir-ravi.github.io/aptivance-site/sitemap.xml
+Sitemap: https://aptivance.in/sitemap.xml

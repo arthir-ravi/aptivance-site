@@ -28582,7 +28582,7 @@ fieldset:disabled .btn {
 }
 .faq-hero {
   overflow: hidden;
-  padding: 5.5rem 0 4.5rem;
+  padding: 4.25rem 0 3.75rem;
   background: linear-gradient(108deg, #fff 0%, #f7fff8 70%, #effcf1 100%);
 }
 .faq-hero h1 {
@@ -28797,7 +28797,7 @@ fieldset:disabled .btn {
 }
 @media (max-width: 991.98px) {
   .faq-hero {
-    padding: 4rem 0;
+    padding: 3rem 0 1rem;
   }
   .faq-main {
     padding-top: 1.5rem;
@@ -28805,7 +28805,7 @@ fieldset:disabled .btn {
 }
 @media (max-width: 575.98px) {
   .faq-hero {
-    padding: 3.3rem 0;
+    padding: 3rem 0 1rem;
   }
   .faq-category-head {
     grid-template-columns: 34px 1fr 18px;

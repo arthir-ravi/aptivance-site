@@ -29,10 +29,10 @@ window.addEventListener('scroll', () => {
 });
 
 const whatsappNumber = '919443356858';
-const internshipEnquiryForm = document.getElementById('internshipEnquiryForm');
+const programEnquiryForm = document.getElementById('programEnquiryForm');
 
-if (internshipEnquiryForm) {
-  const fields = Array.from(internshipEnquiryForm.querySelectorAll('input[required], select[required], textarea[required]'));
+if (programEnquiryForm) {
+  const fields = Array.from(programEnquiryForm.querySelectorAll('input[required], select[required], textarea[required]'));
 
   const validateField = (field) => {
     const value = field.value.trim();
@@ -57,7 +57,7 @@ if (internshipEnquiryForm) {
     field.addEventListener('change', clearError);
   });
 
-  internshipEnquiryForm.addEventListener('submit', (event) => {
+  programEnquiryForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const firstInvalidField = fields.find((field) => !validateField(field));
 
@@ -66,11 +66,11 @@ if (internshipEnquiryForm) {
       return;
     }
 
-    const data = new FormData(internshipEnquiryForm);
+    const data = new FormData(programEnquiryForm);
     const firstName = data.get('firstName').trim();
     const lastName = data.get('lastName').trim();
     const fullName = lastName ? `${firstName} ${lastName}` : firstName;
-    const message = `Hello Aptivance Team,\n\nI am interested in an internship opportunity at Aptivance.\n\nName: ${fullName}\nEmail: ${data.get('email').trim()}\nPhone: ${data.get('phone').trim()}\nCollege / University: ${data.get('college').trim()}\nCourse / Degree: ${data.get('course').trim()}\nInternship Domain: ${data.get('domain')}\n\nMessage:\n${data.get('message').trim()}`;
+    const message = `Hello Aptivance Team,\n\nI am interested in Aptivance programs.\n\nName: ${fullName}\nEmail: ${data.get('email').trim()}\nPhone: ${data.get('phone').trim()}\nCollege / University: ${data.get('college').trim()}\nCourse / Degree: ${data.get('course').trim()}\nEnquiry Type: ${data.get('programType')}\nPreferred Learning Mode: ${data.get('learningMode')}\nCourse / Internship Domain: ${data.get('domain')}\n\nMessage:\n${data.get('message').trim()}`;
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappUrl, '_blank', 'noopener');
