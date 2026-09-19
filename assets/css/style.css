@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
-@import "@tabler/icons-webfont/dist/tabler-icons.min.css";
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
@@ -28259,6 +28257,28 @@ fieldset:disabled .btn {
   display: block;
   height: 28px;
   width: 28px;
+}
+
+/* Components are loaded after the document. Reserve the navbar's final height
+   so inserting it cannot push the hero down and contribute to CLS. */
+[data-component="navbar"] {
+  display: block;
+  height: 56px;
+}
+
+@media (min-width: 992px) {
+  [data-component="navbar"] {
+    height: 44px;
+  }
+}
+
+/* Keep the LCP image's display box stable even before it has decoded. */
+.hero-image {
+  aspect-ratio: 3 / 2;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
 }
 
 /* Reusable icon dimensions. Keep size presentation out of the markup. */
